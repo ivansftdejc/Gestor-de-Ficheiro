@@ -5,3 +5,53 @@
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
 }
+body {
+    display: flex;
+    height: 100vh;
+    background: #f0f5fd;
+}
+.left-section {
+    background: #fff;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 25px 10px;
+    transition: all 0.3s ease;
+}
+.left-section h2 {
+    color: #364670;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.left-section .side-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px ;
+}
+.left-section .side-bar .item, .left-section .sign-out {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #364670;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+C .active h3,
+.left-section .side-bar .item .active i,
+.left-section .side-bar .item:hover,
+.left-section .sign-out:hover {
+    color: #1976d2;
+}
+.left-section .side-bar .item h3,
+.left-section .sign-out h3 {
+    font-size: 15px;
+    font-weight: 500px;
+}
+.left-section .side-bar .item i,
+.left-section .sign-out i{
+    font-size: 25px;
+}
