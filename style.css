@@ -55,3 +55,7 @@ C .active h3,
 .left-section .sign-out i{
     font-size: 25px;
 }
+.main {
+    flex: 6;
+    padding: 25px;
+}
