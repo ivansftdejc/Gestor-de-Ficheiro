@@ -380,7 +380,6 @@ body {
 .right-section .widgets .botton .premium p{
     color: #999;
     font-size: 16px;
-    line-height: 1.4rem;
 }
 @media screen and (max-width:1230px){
     .left-section{
@@ -430,6 +429,7 @@ body {
         font-size: 17px;
         padding: 12px;
     }
+   
     .right-section .widgets .disk .botton .premium .title h5{
         font-size: 17px;
     }
@@ -476,6 +476,54 @@ body {
     .main table tbody tr td.size{
         font-size: 13px;
     }
-     
+}
 
+@media screen and (max-width: 768px) {
+    body{
+        flex-direction: column;
+    }
+    .main{
+        padding: 26px 15px 0;
+    }
+    .main .header{
+        justify-content: start;
+    }
+    .main .header .search{
+        width: 30%;
+    }
+    .right-section .profile{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+    .right-section .widgets{
+        flex-direction: row;
+        gap: 30px;
+    }
+    .right-section .widgets .disk{
+        width: 48%;
+    }
+    .right-section .widgets .botton{
+        justify-content: center;
+        gap: 30px;
+    }   
+}
+ 
+@media screen and (max-width:648px){
+    .main{
+        padding: 120px 15px 0;
+    }
+    .main .header .search{
+        width: 80%;
+    }
+    .right-section .profile{
+        width: 95%;
+    }
+    .right-section .widgets .disk .info h5{
+        font-size: 14px;
+    }
+    .right-section .widgets .disk .info p{
+        font-size: 13px;
+    }
+    
 }
