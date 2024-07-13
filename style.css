@@ -440,3 +440,42 @@ body {
         font-size: 14px;        
     }
 }
+@media screen and (max-width:992px){
+    .left-section{
+        position: absolute;
+        width: 160px;
+        z-index: 1000;
+        box-shadow:0 10px 30px rgba(0, 0, 0, 0.1) ;
+    }
+    .left-section .side-bar .item{
+        justify-content: start;
+    }
+    .left-section .side-bar .item h3,
+    .left-section .sign-out h3{
+        display: block;
+    }
+    .left-section .side-bar.item i,
+    .left-section .sign-out i{
+        font-size: 22px;
+    }
+    .main,
+    .right-section{
+        padding: 15px;
+    }
+    .main .header{
+        gap: 10px;
+    }
+    .main .header .icon-btns i#menu-btn{
+        display: block;
+    }
+    .main .quick-access .item p{
+        text-align: center;
+    }
+    .main table tbody tr td.name,
+    .main table tbody tr td.extension,
+    .main table tbody tr td.size{
+        font-size: 13px;
+    }
+     
+
+}
