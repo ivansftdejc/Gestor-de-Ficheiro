@@ -382,3 +382,61 @@ body {
     font-size: 16px;
     line-height: 1.4rem;
 }
+@media screen and (max-width:1230px){
+    .left-section{
+        width: 130px;
+    }
+    .left-section h2{
+        font-size: 17px;
+    }
+    .left-section .side-bar .item{
+        justify-content: center;
+    }
+    .left-section .side-bar .item h3,
+    .left-section .sign-out h3{
+        display: none;
+    }
+    .left-section .side-bar .item i,
+    .left-section .sign-out i{
+        font-size: 26px;
+    }
+    .main .quick-access{
+        justify-content: space-between;
+    }
+    .main .quick-access .item{
+        width: 23%;
+    }
+    .main .quick-access .item i{
+        font-size: 36px;
+    }
+    .main .quick-access .item h5{
+        font-size: 16;
+    }
+    .main .quick-access .itemp,
+    .right-section .profile .info .account p{
+        font-size: 12px;
+    }
+    .right-section .widgets .disk{
+        height: 270px;
+    }
+    .right-section .widgets .disk .progress-bar{
+        width: 120px;
+        height: 120px;
+    }
+    .right-section .widgets .disk .info h5{
+        font-size: 18px;
+    }
+    .right-section .widgets .botton{
+        font-size: 17px;
+        padding: 12px;
+    }
+    .right-section .widgets .disk .botton .premium .title h5{
+        font-size: 17px;
+    }
+    .right-section .widgets .botton .premium .title i{
+        font-size:26px;
+    }
+    .right-section .widgets .botton .premium .title p{
+        font-size: 14px;        
+    }
+}
