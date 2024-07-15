@@ -380,5 +380,150 @@ body {
 .right-section .widgets .botton .premium p{
     color: #999;
     font-size: 16px;
-    line-height: 1.4rem;
+}
+@media screen and (max-width:1230px){
+    .left-section{
+        width: 130px;
+    }
+    .left-section h2{
+        font-size: 17px;
+    }
+    .left-section .side-bar .item{
+        justify-content: center;
+    }
+    .left-section .side-bar .item h3,
+    .left-section .sign-out h3{
+        display: none;
+    }
+    .left-section .side-bar .item i,
+    .left-section .sign-out i{
+        font-size: 26px;
+    }
+    .main .quick-access{
+        justify-content: space-between;
+    }
+    .main .quick-access .item{
+        width: 23%;
+    }
+    .main .quick-access .item i{
+        font-size: 36px;
+    }
+    .main .quick-access .item h5{
+        font-size: 16;
+    }
+    .main .quick-access .itemp,
+    .right-section .profile .info .account p{
+        font-size: 12px;
+    }
+    .right-section .widgets .disk{
+        height: 270px;
+    }
+    .right-section .widgets .disk .progress-bar{
+        width: 120px;
+        height: 120px;
+    }
+    .right-section .widgets .disk .info h5{
+        font-size: 18px;
+    }
+    .right-section .widgets .botton{
+        font-size: 17px;
+        padding: 12px;
+    }
+   
+    .right-section .widgets .disk .botton .premium .title h5{
+        font-size: 17px;
+    }
+    .right-section .widgets .botton .premium .title i{
+        font-size:26px;
+    }
+    .right-section .widgets .botton .premium .title p{
+        font-size: 14px;        
+    }
+}
+@media screen and (max-width:992px){
+    .left-section{
+        position: absolute;
+        width: 160px;
+        z-index: 1000;
+        box-shadow:0 10px 30px rgba(0, 0, 0, 0.1) ;
+    }
+    .left-section .side-bar .item{
+        justify-content: start;
+    }
+    .left-section .side-bar .item h3,
+    .left-section .sign-out h3{
+        display: block;
+    }
+    .left-section .side-bar.item i,
+    .left-section .sign-out i{
+        font-size: 22px;
+    }
+    .main,
+    .right-section{
+        padding: 15px;
+    }
+    .main .header{
+        gap: 10px;
+    }
+    .main .header .icon-btns i#menu-btn{
+        display: block;
+    }
+    .main .quick-access .item p{
+        text-align: center;
+    }
+    .main table tbody tr td.name,
+    .main table tbody tr td.extension,
+    .main table tbody tr td.size{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        flex-direction: column;
+    }
+    .main{
+        padding: 26px 15px 0;
+    }
+    .main .header{
+        justify-content: start;
+    }
+    .main .header .search{
+        width: 30%;
+    }
+    .right-section .profile{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+    .right-section .widgets{
+        flex-direction: row;
+        gap: 30px;
+    }
+    .right-section .widgets .disk{
+        width: 48%;
+    }
+    .right-section .widgets .botton{
+        justify-content: center;
+        gap: 30px;
+    }   
+}
+ 
+@media screen and (max-width:648px){
+    .main{
+        padding: 120px 15px 0;
+    }
+    .main .header .search{
+        width: 80%;
+    }
+    .right-section .profile{
+        width: 95%;
+    }
+    .right-section .widgets .disk .info h5{
+        font-size: 14px;
+    }
+    .right-section .widgets .disk .info p{
+        font-size: 13px;
+    }
+    
 }
