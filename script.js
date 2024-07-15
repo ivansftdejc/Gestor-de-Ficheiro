@@ -1,11 +1,14 @@
 const sidebarItems = document.querySelectorAll('.side-bar .item');
 const tableRows = document.querySelectorAll('.main table tbody tr');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 const menuBtn=document.getElementById('menu-btn');
 const leftSection=document.querySelector('.left-section');
 let isMenuOpen=false;
 >>>>>>> development
+=======
+>>>>>>> c57325fcbc522f93b8739108e08ed002fa6ddeb4
 
 sidebarItems.forEach(sideItem => {
     sideItem.addEventListener('click', () => {
@@ -16,9 +19,12 @@ sidebarItems.forEach(sideItem => {
     });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> development
+=======
+>>>>>>> c57325fcbc522f93b8739108e08ed002fa6ddeb4
 tableRows.forEach(tableTr => {
     tableTr.addEventListener('click', () => {
         tableRows.forEach(item => {
@@ -26,6 +32,7 @@ tableRows.forEach(tableTr => {
         });
         tableTr.classList.add('selected');
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 });
 =======
@@ -42,3 +49,6 @@ menuBtn.addEventListener( 'click', ()=>{
 
 );
 >>>>>>> development
+=======
+});
+>>>>>>> c57325fcbc522f93b8739108e08ed002fa6ddeb4
