@@ -443,6 +443,7 @@ body {
 @media screen and (max-width:992px){
     .left-section{
         position: absolute;
+        left: -160px;
         width: 160px;
         z-index: 1000;
         box-shadow:0 10px 30px rgba(0, 0, 0, 0.1) ;
@@ -491,6 +492,7 @@ body {
     .main .header .search{
         width: 30%;
     }
+    .main .quick-access
     .right-section .profile{
         position: absolute;
         top: 15px;
@@ -524,6 +526,17 @@ body {
     }
     .right-section .widgets .disk .info p{
         font-size: 13px;
+    }   
+}
+@media screen and (max-width:548px) {
+    .main .quick-access{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        margin: auto;
+    }
+    .main .quick-access .item{
+        width: 100%;
     }
     
 }
